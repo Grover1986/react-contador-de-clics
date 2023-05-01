@@ -12,6 +12,9 @@ function App() {
                 alt='Logo de freeCodeCamp' 
             />
         </div>
+        <div className='contenedor-principal'>
+            {/* aquí crearemos nuestros componentes: el Contador y los Botomes */}
+        </div>
     </div>
   );
 }
