@@ -1,9 +1,9 @@
 import React from "react";
 
-function Boton(props) {
+function Boton({ texto }) {
     return (
         <button>
-            {props.texto}
+            {texto}
         </button>
     )
 }
