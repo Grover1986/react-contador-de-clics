@@ -1,6 +1,7 @@
 import './App.css';
 // importando imagen
 import freecodeCampLogo from './images/freecodecamp-logo.png'
+import Boton from './components/Boton';
 
 function App() {
   return (
@@ -14,6 +15,14 @@ function App() {
         </div>
         <div className='contenedor-principal'>
             {/* aquí crearemos nuestros componentes: el Contador y los Botomes */}
+            <Boton 
+                texto='Clic'
+                esBotonDeClic={true}
+                manejarClic={} />
+            <Boton 
+                texto='Reiniciar'
+                esBotonDeClic={false}
+                manejarClic={} />
         </div>
     </div>
   );
