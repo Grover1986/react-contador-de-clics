@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/Boton.css'
 
 // agregamos una función 'manejarClic' como prop
 function Boton({ texto, esBotonDeClic, manejarClic }) { //agregamos otro prop 'esBotonDeClic'
