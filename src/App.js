@@ -27,11 +27,11 @@ function App() {
                 <Boton 
                     texto='Clic'
                     esBotonDeClic={true}
-                    manejarClic={} />
+                    manejarClic={manejarClic} />
                 <Boton 
                     texto='Reiniciar'
                     esBotonDeClic={false}
-                    manejarClic={} />
+                    manejarClic={reiniciarContador} />
             </div>
         </div>
     );
